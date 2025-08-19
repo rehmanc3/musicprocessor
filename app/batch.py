@@ -2,7 +2,6 @@ from __future__ import annotations
 import os
 import glob
 from pathlib import Path
-import numpy as np
 from tqdm import tqdm
 from .audio import load_audio, save_audio
 from .mdx_onnx import MDXSeparator
