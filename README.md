@@ -1,6 +1,21 @@
 # musicprocessor
 
-<!-- CI status (GitHub Actions) --> [![CI](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml) <!-- License --> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) <!-- Python & Platform --> ![Python](https://img.shields.io/badge/python-3.11-blue) ![OS](https://img.shields.io/badge/os-linux%20%7C%20macOS-informational) <!-- Lint --> [![ruff](https://img.shields.io/badge/lint-ruff-success)](https://github.com/astral-sh/ruff)
+
+[![CI](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/<YOUR_GH_USERNAME>/musicprocessor/actions/workflows/ci.yml)
+
+<!-- Container image (GHCR) – latest tag size & version -->
+![GHCR Image Size](https://img.shields.io/docker/image-size/ghcr/rehmanc3/musicprocessor/latest)
+![GHCR Version](https://img.shields.io/github/v/tag/rehmanc3/musicprocessor?label=ghcr%20tag)
+
+<!-- License -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
+<!-- Python & Platform -->
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![OS](https://img.shields.io/badge/os-linux%20%7C%20macOS-informational)
+
+<!-- Lint -->
+[![ruff](https://img.shields.io/badge/lint-ruff-success)](https://github.com/astral-sh/ruff)
 
 A **containerized, GPU-optional batch audio processing pipeline** (UVR-style source separation) built with ONNX Runtime.  
 Designed for reproducible runs in local development, CI/CD, and Kubernetes environments.
