@@ -10,7 +10,7 @@ docker compose run --rm isolator
 python -m app.batch /path/to/inputs /path/to/outputs /path/to/model.onnx --device cuda --overlap 0.5 --frame-len 220500
 
 ## Models
-Place UVR/MDX .onnx under ./models and pass via --model or MODEL_PATH.
+Place .onnx under ./models and pass via --model or MODEL_PATH.
 
 ## Tips
 - GPU: set `--device cuda` (requires CUDAExecutionProvider)
