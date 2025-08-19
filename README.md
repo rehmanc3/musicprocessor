@@ -3,9 +3,6 @@
 
 [![CI](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/<YOUR_GH_USERNAME>/musicprocessor/actions/workflows/ci.yml)
 
-<!-- Container image (GHCR) – latest tag size & version -->
-![GHCR Image Size](https://img.shields.io/docker/image-size/ghcr/rehmanc3/musicprocessor/latest)
-![GHCR Version](https://img.shields.io/github/v/tag/rehmanc3/musicprocessor?label=ghcr%20tag)
 
 <!-- License -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
