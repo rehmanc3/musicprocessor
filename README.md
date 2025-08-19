@@ -1,7 +1,7 @@
 # musicprocessor
 
 <!-- CI status (GitHub Actions) -->
-[![CI](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/<YOUR_GH_USERNAME>/musicprocessor/actions/workflows/ci.yml)
+[![CI](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml)
 
 <!-- License -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
