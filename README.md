@@ -1,8 +1,6 @@
 # musicprocessor
 
-[![CI](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml)
-[![Docker Image](https://ghcr-badge.egpl.dev/rehmanc3/musicprocessor/latest_tag?label=ghcr.io%2Fmusicprocessor)](https://github.com/rehmanc3/musicprocessor/pkgs/container/musicprocessor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<!-- CI status (GitHub Actions) --> [![CI](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rehmanc3/musicprocessor/actions/workflows/ci.yml) <!-- License --> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) <!-- Python & Platform --> ![Python](https://img.shields.io/badge/python-3.11-blue) ![OS](https://img.shields.io/badge/os-linux%20%7C%20macOS-informational) <!-- Lint --> [![ruff](https://img.shields.io/badge/lint-ruff-success)](https://github.com/astral-sh/ruff)
 
 A **containerized, GPU-optional batch audio processing pipeline** (UVR-style source separation) built with ONNX Runtime.  
 Designed for reproducible runs in local development, CI/CD, and Kubernetes environments.
