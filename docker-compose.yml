@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  isolator:
+    build: .
+    image: ghcr.io/rehmanc3/musicprocessor:latest
+    volumes:
+      - ./inputs:/mnt/in
+      - ./outputs:/mnt/out
+      - ./models:/app/models
+    environment:
+      - MODEL_PATH=/app/models/models.onnx
+    command: ["python", "-c", "from app.batch import run_batch; run_batch('/mnt/in','/mnt/out', '/app/models/models.onnx')"]

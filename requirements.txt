@@ -1,0 +1,8 @@
+onnxruntime>=1.18.0
+numpy>=1.26
+soundfile>=0.12
+librosa>=0.10
+PySimpleGUI>=5.0.0
+scipy>=1.11
+tqdm>=4.66
+numba>=0.59
